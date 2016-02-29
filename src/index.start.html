@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="Eggly">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Eggly</title>
+
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/eggly.css">
+    </head>
+    <body ng-controller="MainCtrl">
+        <div class="container-fluid" ui-view></div>
+        <!-- Adding javascript files -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+        <script src="vendor/angular-ui-router.min.js"></script>
+
+        <script src="app/eggly-app.start.js"></script>
+        <script src="app/categories/categories.js"></script>
+        <script src="app/categories/bookmarks/bookmarks.js"></script>
+        <script src="app/categories/bookmarks/create/bookmark-create.js"></script>
+        <script src="app/categories/bookmarks/edit/bookmark-edit.js"></script>
+        <script src="app/common/models/bookmarks-model.js"></script>
+        <script src="app/common/models/categories-model.js"></script>
+    </body>
+</html>
